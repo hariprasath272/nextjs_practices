@@ -44,7 +44,7 @@ const sass = () => {
 
     <br></br>
 
-    {/* <span class="bg-primary text-white">bg primary</span> |
+    <span class="bg-primary text-white">bg primary</span> |
     <span class="bg-secondary text-white">bg secondary</span> |
     <span class="bg-error text-white">bg error</span> |
     <span class="bg-info text-white">bg info</span> |
@@ -54,7 +54,7 @@ const sass = () => {
     <span class="bg-yellow text-white">bg yellow</span> |
     <span class="bg-purple text-white">bg purple</span> |
     <span class="bg-orange text-white">bg orange</span> |
-    <span class="bg-gray text-white">bg gray</span> | */}
+    <span class="bg-gray text-white">bg gray</span> |
 
     <br></br>
 
