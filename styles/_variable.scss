@@ -1,0 +1,33 @@
+  $primary:aqua;
+  $secondary: #1ac886;
+  $text-center:center;
+  $text-blue:rgb(107, 190, 226);
+  $text-color: #326dee;
+  $error-text:red;
+  $notification:green;
+  $blue:blue;
+  $error: #d32752;
+  $info: #f6c31c;
+  $border-property:1px solid grey;
+
+  $radius:20px;
+  $padding-size:10px;
+  $margin-size:50px;
+  $anchor-tag:none;
+
+  
+  $colors:(
+    "primary": $primary,
+    "secondary":$secondary,
+    "error-text":$error,
+    "info":$info,
+    "blue":#1919e6,
+    "red":#e61919,
+    "yellow": #e6e619,
+    "green":#19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "grey": #808080,
+    "white":black,
+    "black":white,
+  );

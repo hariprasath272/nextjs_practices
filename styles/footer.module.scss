@@ -1,0 +1,144 @@
+/* .footerscontainer{
+    
+    align-items: center;
+    justify-content: center;
+} */
+/* .footer{
+    display: flex;
+    align-items:center
+} */
+/* .footerscontainer{
+   margin-left: 20px;
+}  */
+
+@media (min-width: 576px) {
+   .footerscontainer {
+      display: flex;
+      justify-content: space-around;
+      line-height: 40px;
+   }
+}
+
+@media (max-width:576px) {
+   .footerscontainer {
+      padding-left: 10px;
+      line-height: 40px;
+
+   }
+}
+
+.footerheading {
+   margin-top: 0px;
+   margin-bottom: 0px;
+   color: #000;
+   font-size: 20px;
+   line-height: 36px;
+   font-weight: 500;
+   font-family: sans-serif;
+
+}
+
+.productname {
+   text-decoration: none;
+   margin-bottom: 16px;
+   -webkit-transition: color 200ms ease;
+   transition: color 200ms ease;
+   color: #757575;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.Resourcesname {
+   text-decoration: none;
+   margin-bottom: 16px;
+   -webkit-transition: color 200ms ease;
+   transition: color 200ms ease;
+   color: #757575;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.pagename {
+   text-decoration: none;
+   margin-bottom: 16px;
+   -webkit-transition: color 200ms ease;
+   transition: color 200ms ease;
+   color: #757575;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.pages {
+   text-decoration: none;
+   margin-bottom: 16px;
+   -webkit-transition: color 200ms ease;
+   transition: color 200ms ease;
+   color: #757575;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.footer_email {
+   text-decoration: none;
+   margin-top: 40px;
+   -webkit-transition: color 200ms ease;
+   transition: color 200ms ease;
+   color: #000;
+   font-size: 17px;
+   line-height: 48px;
+   font-weight: 600;
+}
+
+.phonenumber {
+
+   margin-top: 11px;
+   -webkit-transition: color 200ms ease;
+   transition: color 200ms ease;
+   color: #757575;
+   text-decoration: none;
+   font-size: 19px;
+}
+
+.twitter_icon {
+   border: none;
+   background: white;
+   font-size: 25px;
+   color: #a6a6a6;
+}
+
+.linkedin_icon {
+   border: none;
+   background: white;
+   padding-left: 20px;
+   font-size: 25px;
+   color: #a6a6a6;
+}
+
+@media (min-width:568px) {
+   .footer_icon_content {
+      display: flex;
+      justify-content: space-between;
+   }
+}
+
+.footer_text {
+   padding: 0px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.text_item {
+   padding-left: 15px;
+   text-decoration: none;
+   transition: color 200ms ease;
+   color: #757575;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+.outer {
+   &>.box {
+
+      background-color: aqua;
+   }
+}

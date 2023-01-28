@@ -1,0 +1,11 @@
+@for $i from 1 through 3{
+    .loop#{$i}{
+        font-size: 80px * $i;
+        color: rgb(random(255), random(255), random(255));
+        background-color: aqua;
+    }
+}
+.loop
+{
+    background-color: aqua;
+}

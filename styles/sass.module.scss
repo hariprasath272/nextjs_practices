@@ -1,0 +1,121 @@
+
+@import 'variable';
+// @use 'sass:math';
+
+//map in sass
+
+
+$colors:(
+  "primary": $primary,
+  "secondary":$secondary,
+  "error-text":$error,
+  "info":$info,
+  "blue":$blue,
+  "red":#e61919,
+  "yellow": #e6e619,
+  "green":#19e635,
+  "orange": #ffa600,
+  "purple": #9900ff,
+  "grey": #808080,
+  "white":black,
+  "black":white,
+);
+
+
+//each loop
+$colors:(
+  loops_for:blue,
+  loops_for_each:green,
+);
+
+.heading {
+  a {
+    color:$text-color;
+   
+  }
+}
+
+.text{
+  // background-color: aqua;
+  text-decoration:$anchor-tag ;
+  color: $text-blue;
+  border: 1px solid $text-color;
+  padding: $padding-size;  
+  margin: $margin-size;
+  border-radius: $radius;
+  
+}
+.error{
+  border-radius: $radius;
+  color:   $text-color;
+  border: 1px solid $error-text;
+  padding: $padding-size;  
+  margin: $margin-size;
+
+}
+.notification{
+ 
+  border-radius: $radius;
+  color:   $text-color;
+  border: 2px solid  $notification;
+  padding: $padding-size; 
+  margin: $margin-size; 
+}
+
+.card{
+  border: $border-property;
+  padding: $padding-size;
+  margin: $margin-size;
+  border-radius:#{$radius*2} ;
+  .card_title{
+    color: $text-color;
+  }
+  .card_body{
+    color: $text-blue;
+  }
+}
+ //math in sass
+ .math_text{
+  margin: $margin-size + 2px;
+    border-radius: $radius + 2px;
+   border: $border-property ;
+   padding: $padding-size + 15px;
+ }
+ .math{
+  margin: $margin-size + 2px;
+  border-radius: $radius + 5px;
+  border: $border-property ;
+  padding: $padding-size + 10px;
+ }
+
+ //loops in Sass
+
+//  @each $key, $val in $colors {
+//   .text-#{$key} {
+//     background: $val;
+//   }
+//   .bg-#{$key} {
+//   color: $val;
+//   }
+// }
+// @for $j from 1 through 3{
+//  .loops-#{$j}{
+//   font-size: 15px * $j;
+//  }
+// }
+
+
+//each loop
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+}
+
+@each $key, $val in $colors {
+  .text-#{$key} {
+    color: $val;
+  }
+  .bg-#{$key} {
+    background-color: $val;
+  }}
