@@ -30,7 +30,7 @@ const sass = () => {
   <div>
     <h1>Loops in Sass</h1>
     <h2>Colors</h2>
-  {/* <div className={styles.textcolor}>
+  <div className={styles.textcolor}>
     <span class="text-primary">primary text</span> | 
     <span class="text-secondary">secondary text</span> | 
     <span class="text-error">error text</span> | 
@@ -42,7 +42,7 @@ const sass = () => {
     <span class="text-purple">purple text</span> | 
     <span class="text-orange">orange text</span> | 
     <span class="text-black">gray text</span>
-    </div> */}
+    </div>
     <br></br>
 
     <span class="bg-primary text-white">bg primary</span> |
