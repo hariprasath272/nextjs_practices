@@ -59,7 +59,7 @@ const sass = () => {
 
     <br></br>
 
-    <span class="bg-primary-dark-8 text-white">primary dark 8</span> |
+    {/* <span class="bg-primary-dark-8 text-white">primary dark 8</span> |
     <span class="bg-primary-dark-6 text-white">primary dark 6</span> |
     <span class="bg-primary-dark-4 text-white">primary dark 4</span> |
     <span class="bg-primary-dark-2 text-white">primary dark 2</span> |
@@ -67,7 +67,7 @@ const sass = () => {
     <span class="bg-primary-light-2 text-white">primary light 2</span> |
     <span class="bg-primary-light-4 text-white">primary light 4</span> |
     <span class="bg-primary-light-6 text-white">primary light 6</span> |
-    <span class="bg-primary-light-8 text-white">primary light 8</span> |
+    <span class="bg-primary-light-8 text-white">primary light 8</span> | */}
 
    
 
